@@ -1,0 +1,247 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-principal header {   text-decoration: none;
+   text-align: center;
+   background-color: gold;
+   padding: 1.5em;
+}
+
+.contenedor-principal a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin: 3em;
+}
+
+.titulos  {
+    background-image: url(./imagene/fondojapon.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.titulos h1  {
+    color: white;
+}
+
+.titulos p {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+
+
+
+.titulos-cartas h1 {
+    font-size: 6px;
+}
+
+.contenedor-card1 {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 30px;
+    margin-top: 3em;
+    text-align: center ;
+}
+
+
+.contenedor-card1 .card {
+    background: linear-gradient(135deg, rgb(0, 191, 255), rgb(3, 37, 76), rgb(72, 239, 255));
+    width: 280px;
+    height: 375px;
+    border-radius: 15px;
+    margin-bottom: 3em;
+    overflow: hidden;
+    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s;
+}
+
+.tituloscartas {
+    text-align: center;
+    padding-top: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor-card1 .card img{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    object-fit: cover;
+    padding-top: 1em;
+    
+}
+
+.contenedor-card1 .card h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0.5em;
+    color: white;
+}
+
+.contenedor-card1 .card p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.contenedor-card1 .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contenedor-card .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.contenedor-card .card a {
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+}
+
+
+
+
+.contenedor-card2 {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.contenedor-card2 .card1 {
+    width: 280px;
+    height: 320px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    object-fit: cover;
+    box-shadow: 0px 3px 4px;
+    border: 1px solid;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.contenedor-card2 .card1 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+
+.contenedor-card2 .card-cuerpo {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgb(177, 169, 169)
+}
+
+
+.contenedor-card2 .card1:hover {
+    transform: translateY(-15px);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contenedor-principal  h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 0.5em;
+
+}
+
+.contenedor-card2 .card1 p {
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.contenedor-card2 .card1 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+
+footer {
+    background-color: gold;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contenido-footer {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.contenido-footer {
+    padding-bottom: 10px;
+
+}
+
+.contenido-footer h4 {
+ padding-bottom: 10px;
+ font-size: 20px;
+}
+
+.contenido-footer p {
+    font-size: 14px;
+}
+
+.contenido-footer a {
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.contenedor-footer img {
+    padding-top: 5px;
+}
+
+.contenedor-footer a img:hover {
+    transform: translateY(-3px);
+    box-shadow: 1px 3px 5px black;
+}
+
+@media (max-width: 768px)  {
+    .contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contenedor-footer {
+        max-width: 100%;
+    }
+}
